@@ -9,6 +9,10 @@ stdenv.mkDerivation rec {
     sha256 = "078shs82564ch5crvl7593dirg5c39nmaxdcsj8345canp47ljy2";
   };
 
+  paths = [
+    git
+  ];
+
   dontbuild = true;
 
   installPhase = ''
